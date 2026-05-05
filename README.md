@@ -261,76 +261,16 @@ CUSTOMER 5: Low risk customer on time
 | Collection Costs | 40% reduction |
 | Cash Flow | 35% improvement |
 
-## Repository Structure
-
-```
-KElectric-AI-Payment-Credit-Risk-Prediction/
-│
-├── notebooks/
-│   └── KElectric_AI_System.ipynb   # Main Jupyter notebook with complete implementation
-│
-├── models/
-│   ├── payment_delay_model.pkl     # Trained XGBoost model for payment prediction
-│   ├── credit_risk_model.pkl       # Credit risk classification model
+l.pkl       # Credit risk classification model
 │   ├── payment_scaler.pkl          # MinMaxScaler for payment features
-│   └── risk_scaler.pkl             # StandardScaler for risk features
-│
-├── README.md                        # Project documentation
-└── requirements.txt                 # Python package dependencies
-```
+│   └── risk_scaler.pkl           
 
-## Technology Stack
 
-| Category | Technologies |
-|----------|--------------|
-| Programming Language | Python 3.8+ |
-| Data Processing | Pandas, NumPy, Scikit-learn |
-| Machine Learning | XGBoost, Random Forest, Logistic Regression |
-| Imbalance Handling | SMOTE (imbalanced-learn) |
-| Visualization | Matplotlib, Seaborn |
-| Model Serialization | Joblib |
-| Development Environment | Jupyter Notebook, Google Colab |
-| Version Control | Git, GitHub |
-
-## How to Run
-
-### Prerequisites
-- Python 3.8 or higher
-- Git (optional, for cloning)
-
-### Installation and Execution
-
-**Option 1: Google Colab (Recommended)**
-1. Upload the notebook file to Google Colab
-2. Run all cells sequentially
-3. Models will train automatically and results will be displayed
-
-**Option 2: Local Environment**
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/KElectric-AI-Payment-Credit-Risk-Prediction.git
-cd KElectric-AI-Payment-Credit-Risk-Prediction
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch Jupyter Notebook
-jupyter notebook notebooks/KElectric_AI_System.ipynb
-```
-
-## Future Enhancements
-
-1. Real-time API deployment for integration with K-Electric's billing system
-2. Deep learning models (LSTM) for time-series payment pattern analysis
-3. External data integration (economic indicators, weather data, seasonal factors)
-4. Interactive dashboard using Streamlit or Power BI
-5. Explainable AI implementation using SHAP values for prediction transparency
-6. Automated monthly retraining pipeline
 
 ## Authors
 
-**Hira Sarfaraz**  
-**Anum Khadeeja**
+**Anum Khadeeja**  
+**Hira Sarfaraz**
 
 Course: AI in Business  
 Company: K-Electric, Pakistan  
