@@ -270,7 +270,7 @@ CUSTOMER 5: Low risk customer on time
 
 Course: AI in Business  
 Company: K-Electric, Pakistan  
-Year: 2025
+
 
 ## References
 
