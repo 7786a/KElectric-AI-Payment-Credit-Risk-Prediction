@@ -261,10 +261,6 @@ CUSTOMER 5: Low risk customer on time
 | Collection Costs | 40% reduction |
 | Cash Flow | 35% improvement |
 
-l.pkl       # Credit risk classification model
-│   ├── payment_scaler.pkl          # MinMaxScaler for payment features
-│   └── risk_scaler.pkl           
-
 
 
 ## Authors
